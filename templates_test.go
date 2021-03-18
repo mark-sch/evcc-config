@@ -3,8 +3,8 @@ package main
 import (
 	"testing"
 
-	"github.com/andig/evcc-config/registry"
-	_ "github.com/andig/evcc-config/templates"
+	"github.com/mark-sch/evcc-config/registry"
+	_ "github.com/mark-sch/evcc-config/templates"
 
 	"github.com/andig/evcc/charger"
 	"github.com/andig/evcc/meter"
