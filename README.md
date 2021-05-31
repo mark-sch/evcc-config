@@ -95,6 +95,7 @@ If you want to contribute configurations to this repository please open a Pull R
 - [Kia (e-Niro, e-Soul, etc)](#vehicle-kia-e-niro-e-soul-etc)
 - [Nissan (Leaf)](#vehicle-nissan-leaf)
 - [NIU E-Scooter](#vehicle-niu-e-scooter)
+- [Peugeot, Citroen, Opel](#vehicle-psa)
 - [Porsche](#vehicle-porsche)
 - [Renault (Zoe)](#vehicle-renault-zoe)
 - [Tesla](#vehicle-tesla)
@@ -1073,6 +1074,20 @@ If you want to contribute configurations to this repository please open a Pull R
   password: # password
   vin: WREN... # optional
 ```
+
+<a id="vehicle-psa"></a>
+#### PSA (Peugeot)
+```yaml
+- type: peugeot
+  title: e-208
+  capacity: 50 # kWh
+  user: xxx@mail.de
+  password: 
+  clientid: 
+  clientsecret: 
+```
+
+The clientid and clientsecret needs to be extracted once by using the Peugeot apk: https://github.com/flobz/psa_car_controller
 
 <a id="vehicle-tesla"></a>
 #### Tesla
